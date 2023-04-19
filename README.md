@@ -3,7 +3,7 @@ octal or decimal numbers, based on the user's choice. The program continuously
 prompts the user to enter a number to convert and then prompts the user to choose the conversion type. 
 After the conversion is made, the program displays the result and asks if the user wants to continue converting or exit.
 
-Itarts with an infinite loop using while True:
+It tarts with an infinite loop using while True:
 Within the loop, the user is prompted to select the desired conversion option by entering 1 for hexadecimal, 
 2 for octal, or 3 for decimal. The user's input is stored in the variable 
 fromBinaryTo using the int() function to convert the user's input to an integer.
