@@ -5,8 +5,8 @@ After the conversion is made, the program displays the result and asks if the us
 
 It tarts with an infinite loop using while True:
 Within the loop, the user is prompted to select the desired conversion option by entering 1 for hexadecimal, 
-2 for octal, or 3 for decimal. The user's input is stored in the variable 
-fromBinaryTo using the int() function to convert the user's input to an integer.
+2 for octal, or 3 hexadecimal and 4 for decimal. The user's input is stored in the variable 
+as integer datatype and will ultmately be used to perform several activities.
 
 The program then uses if-elif-else statements to determine which conversion option the user selected. 
 If the user selects 1, the program converts the entered binary number to hexadecimal using the 
